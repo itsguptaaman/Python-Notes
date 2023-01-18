@@ -1,0 +1,28 @@
+2022-06-20 10:34:29,120 This is my first program for logging
+2022-06-20 10:34:29,596 This is my first warning to run the program
+2022-06-20 10:34:30,134 This is a message for error
+2022-06-20 10:35:38,247 This is my first program for logging
+2022-06-20 10:35:38,586 This is my first warning to run the program
+2022-06-20 10:35:39,642 This is a message for error
+2022-06-20 10:41:46,984 division by zero
+Traceback (most recent call last):
+  File "<ipython-input-17-615c116eda40>", line 3, in test
+    div=a/b
+ZeroDivisionError: division by zero
+2022-06-20 10:43:16,940 division by zero
+Traceback (most recent call last):
+  File "<ipython-input-19-a9761b924c6c>", line 4, in test
+    div=a/b
+ZeroDivisionError: division by zero
+2022-06-20 10:43:45,497 division by zero
+Traceback (most recent call last):
+  File "<ipython-input-19-a9761b924c6c>", line 4, in test
+    div=a/b
+ZeroDivisionError: division by zero
+2022-06-20 10:44:04,601 40
+2022-06-20 10:44:04,603 division by zero
+Traceback (most recent call last):
+  File "<ipython-input-23-6c73408c4c02>", line 4, in test
+    div=a/b
+ZeroDivisionError: division by zero
+2022-06-20 10:57:21,969 This is start of a program

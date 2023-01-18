@@ -1,0 +1,41 @@
+!. Step is to install csvkit 
+Pip install csvkit
+
+2. open conda promp and go to the location where the csv file is stored
+example
+(base) PS C:\Users\Aman> cd C:\Users\Aman\Downloads\task
+(base) PS C:\Users\Aman\Downloads\task>
+
+3. run this command  csvsql --dialect mysql --snifflimit 100000 FitBitdata.csv > fitbit_data.sql
+example:-
+(base) PS C:\Users\Aman\Downloads\task> csvsql --dialect mysql --snifflimit 100000 FitBitdata.csv > fitbit_data.sql
+
+4. This will create fitbit_data.sql
+
+(base) PS C:\Users\Aman\Downloads\task> dir
+
+
+    Directory: C:\Users\Aman\Downloads\task
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        31-07-2022     05:20          51260 FitBitdata.csv
+-a----        03-08-2022     16:19           1468 fitibt_data.sql
+------        31-07-2022     05:57         141776 pandas class 3 - with task .ipynb
+-a----        02-08-2022     18:48        3776795 sqlkit-0.9.6.tar.gz
+------        24-12-2019     16:37        1512420 Superstore_USA.xlsx
+
+5. Run this in query to create tables in mysql 
+
+6. to load data in mysql use this command
+
+csvsql --db 'mysql+pymysql://root:admin@localhost/task2' --no-create  --insert FitBitdata.csv
+
+example
+(base) PS C:\Users\Aman\Downloads\task> csvsql --db 'mysql+pymysql://root:admin@localhost/task2' --no-create  --insert FitBitdata.csv
+C:\Users\Aman\anaconda3\lib\site-packages\agate\table\from_csv.py:74: RuntimeWarning: Error sniffing CSV dialect: Could not determine delimiter
+
+7. Check the sql table data will be inserted
+
+

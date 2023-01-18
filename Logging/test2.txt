@@ -1,0 +1,23 @@
+2022-06-20 12:03:45,236 We are starting our function
+2022-06-20 12:03:45,236 (12, 13, 14, 15)
+2022-06-20 12:03:54,895 We are starting our function
+2022-06-20 12:03:54,895 (12, 13, 14, 15)
+2022-06-20 12:04:33,499 We are starting our function
+2022-06-20 12:04:33,499 (12, 13, 14, 15)
+2022-06-20 12:04:51,965 We are starting our function
+2022-06-20 12:04:51,965 (12, 13, 14, 15)
+2022-06-20 12:06:46,297 We are starting our function
+2022-06-20 12:07:21,435 We are starting our function
+2022-06-20 12:07:21,435 (12, 13, 14, 15)
+2022-06-20 12:32:15,168 This is my first cod for logging
+2022-06-20 12:32:15,168 This is my logger1
+2022-06-20 12:32:15,168 This is my logger2
+2022-06-20 12:32:28,683 This is my first cod for logging
+2022-06-20 12:32:28,683 This is my logger1
+2022-06-20 12:32:28,683 This is my logger2
+2022-06-20 12:32:33,821 This is my first cod for logging
+2022-06-20 12:32:33,821 This is my logger1
+2022-06-20 12:32:33,821 This is my logger2
+2022-06-20 12:32:43,169 This is my first cod for logging
+2022-06-20 12:32:43,170 This is my logger1
+2022-06-20 12:32:43,170 This is my logger2

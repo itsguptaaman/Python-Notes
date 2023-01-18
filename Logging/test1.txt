@@ -1,0 +1,8 @@
+INFO:root:This is start of a program
+INFO:root:This is for infp
+WARNING:root:this is for warning
+ERROR:root:This is for error
+ERROR:root:This is for exception
+NoneType: None
+CRITICAL:root:This is a critical log
+INFO:root:We are starting our function
